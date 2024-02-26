@@ -11,12 +11,10 @@ public class KeyRepository {
     }
 
     public void addKey(Key key) {
-    	//your code goes here
         keyMap.put(key.getId(), key);
     }
 
     public Key getKeyById(int id) {
-    	//your code goes here
         return keyMap.get(id);
     }
 }

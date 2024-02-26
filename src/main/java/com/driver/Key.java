@@ -12,18 +12,14 @@ public class Key {
     }
 
     public int getId() {
-    	//your code goes here
         return id;
     }
 
     public String getType() {
-    	//your code goes here
         return type;
     }
 
     public String getDescription() {
-    	//your code goes here
         return description;
     }
 }
-

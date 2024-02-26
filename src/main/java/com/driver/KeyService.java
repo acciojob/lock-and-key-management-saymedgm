@@ -8,11 +8,12 @@ public class KeyService {
     }
 
     public void addKey(int id, String type, String description) {
-    	//your code goes here
+        Key key = new Key(id, type, description);
+        keyRepository.addKey(key);
+        System.out.println("Key added with ID: " + id);
     }
 
     public Key getKeyById(int id) {
-    	//your code goes here
         return keyRepository.getKeyById(id);
     }
 }
